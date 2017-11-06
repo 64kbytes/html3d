@@ -141,7 +141,7 @@ window.onload = function(){
             vtr = vp.transforms;
 
             ctx.fillStyle   = 'white';
-            ctx.font        = 'normal 12pt Monospace';
+            ctx.font        = 'normal .8em Monospace';
             ctx.fillText('Viewing cam: ' + vp.campntr, 0, 400);
             ctx.fillText('Coords:  ' + 'X: ' + cam.x + ' Y: ' + cam.y + ' Z: ' + cam.z, 0, 425);
             ctx.fillText('FOV: ' + 'H: ' + cam.FOV.h + ' V: ' + cam.FOV.v, 0, 450);
