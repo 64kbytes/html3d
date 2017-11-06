@@ -4,53 +4,65 @@
 }
 
 body{
-	font-family: Monospace;
-	background: black;
+    font-family: Monospace;
+    background: black;
 }
 
-div[role='main']{
-	width: 1200px;
-	margin: 10px auto;
+main{
+    width: 1200px;
+    margin: 10px auto;
 }
 
 canvas{
-	padding: 10px;
+    padding: 10px;
 }
 
 canvas:hover{
-	background: #0f0f0f; 
+    background: #0f0f0f; 
 }
 
 /*----------------------------------------------------------------------
-	DEBUG
+    DEBUG
 ----------------------------------------------------------------------*/
 
 #debug{
-	position: absolute;
-	top: 0;
-	right: 0;
-	margin: 10px;
-	padding: 5px;
-	font-size: 1.2em;
-	color: white;
-	background: olive;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.2em;
+    color: white;
+    background: olive;
 }
 
 #debug .container{
-	padding: 15px;
-	background: olive;
+    padding: 15px;
+    background: olive;
 }
 
 #debug .container label{
-	font-weight: bold;
-	color: black;
+    font-weight: bold;
+    color: black;
 }
 
 #debug .container span{
-	color: white;
-	font-weight: normal;
+    color: white;
+    font-weight: normal;
 }
 
 #debug h3{
-	color: black;
+    color: black;
 }
+
+#info{
+    padding: 10px;
+    position: fixed;
+    color: white;
+}
+
+#info li span {
+    float: right;
+}
+
+

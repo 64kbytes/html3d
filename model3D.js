@@ -383,6 +383,17 @@ function fractalSquare(vList){
 
 
 function fractalTriangles(vList){
+	/*
+             vA
+	     	 + 
+			/ \
+	       /   \
+       v2 +     + v0
+	     /       \
+     	/         \
+	vC +-----+-----+ vB
+             v1
+	*/
 	
 	var out = new Array();
 	
