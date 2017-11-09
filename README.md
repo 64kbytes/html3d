@@ -1,4 +1,4 @@
-html3d
-======
+HTML 3D
+=======
 
-First steps into HTML canvas 3D. No libraries.
+Basic 3D implementation in JS and Canvas
